@@ -1,0 +1,51 @@
+/* CSS files add styling rules to your content */
+
+body {
+  text-align: center;
+  background-color: black;
+  color:#8B9C3B;
+  background: url(https://cdn.glitch.global/c4c16f38-b2a7-45d5-add4-b1fcf9aa61e3/giphy.gif?v=1710432203355);
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+img{
+  width: 300px;
+}
+
+a{
+  color:#8E3600;
+  text-decoration: none;
+}
+
+main{
+  text-align: center;
+}
+
+h1, nav {
+  text-align: center;
+}
+
+tr, th {
+  text-align: center;
+}
+
+a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+
+.disabled{
+  pointer-events: none;
+}
+
+table {
+
+    margin: 0 auto;
+
+}
